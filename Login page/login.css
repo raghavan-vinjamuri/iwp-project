@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+	background-image: url("Model1.jpg");
+	background-size: 50% ;
+	background-repeat: no-repeat;
+	background-position: 0% -0%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	overflow: hidden;
+}
+#error-message{
+	color: red;
+	width: 50%;
+	position: relative;
+	left: 990px;
+	top: -15px;
+	display: none;
+}
+.logo1{
+	margin: 50px 1100px;
+	top: 500px;
+
+}
+
+#underlogo{
+	color:#00DBD0;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	position: relative;
+	top: -65px;
+	left: 1075px;
+}
+
+#underlogo1{
+	font-size:15px;
+	color: gray;
+	position: relative;
+	top:-55px;
+    left: 1012px;
+}
+
+.logo2{
+	height: 80px;
+	width: 300px;
+	position: relative;
+	top: -85px;
+	left: 990px;
+}
+
+.underlogo2{
+	border-radius: 100px;
+}
+
+input, select {
+  width: 19%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	position: relative;
+	left: 990px;
+	top: -50px;
+}
+
+input[type=submit] {
+  width: 19%;
+  background-color: #00DBD0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+	bottom: 10px;
+}

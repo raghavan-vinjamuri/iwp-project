@@ -1,0 +1,81 @@
+body{
+	background-image: url("Untitled-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.logo1{
+	margin: 80px 465px;
+}
+
+#underlogo{
+	color:#00DBD0;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	position: relative;
+	top: -100px;
+	left: 438px;
+}
+
+.logo2{
+	height: 25px;
+	width: 30px;
+}
+
+#underlogo1{
+	font-size:15px;
+	color: gray;
+	position: relative;
+	top:-105px;
+    left: 350px;
+}
+
+input[type=text], select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	position: relative;
+	left: 260px;
+	top: -110px;
+}
+
+#mail{
+	 width: 32%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	position: relative;
+	left: 260px;
+	top: -110px;
+}
+
+input[type=submit] {
+  width: 19%;
+  background-color: #00DBD0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+	position: relative;
+	left: 350px;
+	top: -105px;
+}
+
+a{
+	color: #00DBD0;
+}
+#error{
+	margin-left: 100px;
+	position:relative;
+}
